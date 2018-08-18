@@ -1,0 +1,1 @@
+export const SET_MEAL_BY_TYPE = 'SET_MEAL_BY_TYPE';

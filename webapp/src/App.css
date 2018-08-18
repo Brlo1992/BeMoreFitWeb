@@ -1,0 +1,38 @@
+.notify{
+    align-items: flex-start;
+    border-radius: 4px;
+    color:#fff;
+    display: flex;
+    padding: 16px;
+}
+
+.notify:not(:last-child){
+    margin: 0 0 12px;
+}
+
+.notify_content {
+    flex: 1 1 auto;
+    margin: 0 12px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notify_dismiss{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    flex: 0 0 auto;
+    font:inherit;
+    padding: 0;
+}
+
+.notifies{
+    bottom: 24px;
+    position: fixed;
+    right:24px;
+    width:240px;
+}
